@@ -6,7 +6,7 @@
 
 "scripts": {
     "test": "cross-env NODE_OPTIONS=--no-warnings wdio run wdio.conf.js",
-    "OS-Devices": "wdio run wdio.conf.js",
+    "Devices": "wdio run wdio.conf.js",
     "allure:generate": "allure generate allure-results -o allure-report",
     "allure:open": "allure open allure-report"
     },
